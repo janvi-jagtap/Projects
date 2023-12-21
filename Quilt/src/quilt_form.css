@@ -1,0 +1,6 @@
+P.item { margin-left: 15px; }
+
+P.item > SELECT { margin-left: 5px; }
+
+INPUT.rows { margin-left: 5px; width: 35px; }
+INPUT.option { margin-right: 5px; }

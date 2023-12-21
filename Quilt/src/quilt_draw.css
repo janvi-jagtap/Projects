@@ -1,0 +1,25 @@
+IMG.square {
+  width: 100px;
+  height: 100px;
+}
+
+IMG.rotate-ne {}
+IMG.rotate-se { transform: rotate(90deg); }
+IMG.rotate-sw { transform: rotate(180deg); }
+IMG.rotate-nw { transform: rotate(-90deg); }
+
+DIV.row {
+  height: 100px;
+}
+
+TD.sq-red {
+  padding: 10px;
+  background-color: rgb(243,212,224);
+  font-family: sans-serif;
+}
+
+TD.sq-green {
+  padding: 10px;
+  background-color: rgb(226,237,214);
+  font-family: sans-serif;
+}

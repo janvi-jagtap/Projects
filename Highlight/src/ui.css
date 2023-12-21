@@ -1,0 +1,21 @@
+BODY {
+  font-family: Helvetica;
+  font-size: 12pt;
+}
+
+SPAN.color-border {
+  margin-left: 15px;
+}
+
+SPAN.color-card {
+  display: table-cell;
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+SPAN.highlight {
+  padding-left: 5px;
+  padding-right: 5px;
+}

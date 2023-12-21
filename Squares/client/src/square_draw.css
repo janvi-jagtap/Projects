@@ -1,0 +1,27 @@
+TD.square-split  { padding: 0; margin: 0; }
+
+TD.square-solid { padding: 0; margin: 0; cursor: pointer; }
+
+TD.white  { background-color: ivory; }
+TD.red    { background-color: lightpink; }
+TD.orange { background-color: lightsalmon; }
+TD.yellow { background-color: lemonchiffon; }
+TD.green  { background-color: lightgreen; }
+TD.blue   { background-color: lightblue; }
+TD.purple { background-color: lavender; }
+
+TD.white:hover  { background-color: #E4E4DC; }
+TD.red:hover    { background-color: #D4AFB5; }
+TD.orange:hover { background-color: #C79885; }
+TD.yellow:hover { background-color: #DEDCC5; }
+TD.green:hover  { background-color: #8EBD8E; }
+TD.blue:hover   { background-color: #A9BFC6; }
+TD.purple:hover { background-color: #D2D2DC; }
+
+TD.white-selected  { background-color: #D7D7D0; }
+TD.red-selected    { background-color: #C9A5AA; }
+TD.orange-selected { background-color: #BE8F7C; }
+TD.yellow-selected { background-color: #D2D0B9; }
+TD.green-selected  { background-color: #85B485; }
+TD.blue-selected   { background-color: #9FB4BB; }
+TD.purple-selected { background-color: #C6C6D0; }
