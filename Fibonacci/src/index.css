@@ -1,0 +1,9 @@
+body {
+    background-color: blueviolet;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:burlywood;
+    border-style: dashed;
+}
+form {
+    margin-left: 500px;
+}
