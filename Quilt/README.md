@@ -1,4 +1,4 @@
-# Quilt
+# Quilt Project
 Creates a virtual quilt with different features you choose
 - Choose a pattern A-E
 - Choose the color either red or green
