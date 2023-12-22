@@ -37,5 +37,5 @@ An interactive web application where you can create beautiful square designs and
 - A merge button which merges the selected square into the square that it was split from
 - A rotate button that rotates the image clockwise
 
-# VisiCalc
+## VisiCalc
 This is a spreadsheet program similar to Micosoft Excel where you can put data in each cell, add it, or remove it.    
