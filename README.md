@@ -1,6 +1,9 @@
 # Welcome to my projects
 This is a list of all the projects I've completed so far including a summary for each one
 
+## Bellman-Ford
+A project where I practiced implementing the Bellman-Ford Algorithm in sequential and parallel programming using the Forkjoin Framework
+
 ## Chatbot
 This is a chatbot where you can converse with a doctor chatbot and you can save your conversations.
 
@@ -15,6 +18,9 @@ This web application tells you if your age is a Fibonacci number, and if not wil
 
 ## Highlight
 Allows you to search for variations of the color you want using keywords and highlights given words using the colors you want
+
+## Online Chatroom
+Creates a platform where you can chat with other users who are on the same platform
 
 ## Pollster
 This web application allows you to create your own polls that are open for a limited time.
