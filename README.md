@@ -16,6 +16,11 @@ This web application allows you to encode and decode words using 3 different cod
 ## Fibonacci
 This web application tells you if your age is a Fibonacci number, and if not will tell you how many years until it becomes a Fibonacci number
 
+## FlightPath
+This application uses a flight database from July 2017 to allow users to 
+create accounts, log into those accounts, search for flights, book those flights, pay for those flights, and list out all reservations.
+It also supports transactions and can be used concurrently on different terminals.
+
 ## Highlight
 Allows you to search for variations of the color you want using keywords and highlights given words using the colors you want
 
