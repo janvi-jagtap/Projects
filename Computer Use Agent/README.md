@@ -1,5 +1,5 @@
 # Computer use Agent Full Stack Application
-This application demonstrates the concept of a computer-use agent by
+This application demonstrates the concept of a computer use agent by
 allowing users to provide natural language instructions to control the browser and website it opens up.
 It uses OpenAI's language model for instruction parsing and Selenium for browser automation ultimately 
 reducing that technical barrier for non-technical users.
