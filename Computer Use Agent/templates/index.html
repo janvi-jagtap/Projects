@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Language Browser Opener</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffe6f0, #ffccf2);
+            font-family: 'Poppins', sans-serif;
+            color: #5f0f57;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #ff69b4;
+            margin-top: 50px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        #instruction {
+            padding: 15px;
+            width: 70%;
+            max-width: 500px;
+            border: 2px solid #ff69b4;
+            border-radius: 20px;
+            font-size: 1em;
+            color: #5f0f57;
+            outline: none;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        #instruction:focus {
+            border-color: #d12b7f;
+            box-shadow: 0 0 10px #ff69b4;
+        }
+
+        button {
+            background-color: #ff69b4;
+            color: #fff;
+            font-size: 1em;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #d12b7f;
+            box-shadow: 0 0 15px #ff69b4;
+        }
+
+        #response {
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: #5f0f57;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            #instruction {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Open a Website with Natural Language</h1>
+    <form id="commandForm">
+        <input type="text" id="instruction" placeholder="e.g., Open Google in Chrome" required>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="response"></div>
+
+    <script>
+        document.getElementById('commandForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const instruction = document.getElementById('instruction').value;
+            const responseDiv = document.getElementById('response');
+
+            try {
+                const response = await fetch('/open', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ instruction }),
+                });
+
+                const data = await response.json();
+                if (response.ok) {
+                    responseDiv.textContent = data.message;
+                } else {
+                    responseDiv.textContent = `Error: ${data.error}`;
+                }
+            } catch (error) {
+                responseDiv.textContent = `Error: ${error.message}`;
+            }
+        });
+    </script>
+</body>
+</html>
