@@ -7,7 +7,7 @@ reducing that technical barrier for non-technical users.
 Example use cases for this application
 - Personal browsing assistance without manually typing URL's or launching the browser
 - Could be expanded to perform automated tasks like filling forms or searching for specific content online 
-    increasing the accesibility of the tech world
+    increasing the accessibility of the tech world
 
 Setup instructions
 - Download python 
@@ -17,6 +17,7 @@ Setup instructions
 - Using pip install openai
 
 Make sure you have a valid openai api key to replace the placeholder in app.py
+
 Download the folder
 
 Now within the terminal cd into the project folder
