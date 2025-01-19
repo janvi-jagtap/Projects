@@ -13,7 +13,7 @@ This web application allows you to encode and decode words using 3 different cod
 - Crazy-Caps: A code with turns every alternate letter starting with the first letter into uppercase
 - Pig-latin: A code that translates the word using pig-latin rules
 
-## Computer Use Agent Full-Stack Application
+## Computer Use Agent 
 This application demonstrates the concept of a computer-use agent by
 allowing users to provide natural language instructions to control the browser and website it opens up.
 It uses OpenAI's language model for instruction parsing and Selenium for browser automation ultimately 
