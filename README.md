@@ -47,6 +47,9 @@ Creates a virtual quilt with different features you choose
 - Can choose to make the pattern symmetric
 - Can choose to have the pattern displayed as text instead
 
+## SimpleDB
+Built a lightweight relational database system in Java, implementing page caching, locking, transaction recovery, and iterator-based query execution. Added join optimization and logging with crash recovery using write-ahead logging and strict two-phase locking.
+
 ## Squares
 An interactive web application where you can create beautiful square designs, save them in files, and load them directly. The editing features include
 - A split button that can split the selected square into fourths
